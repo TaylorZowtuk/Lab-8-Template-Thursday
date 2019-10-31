@@ -97,6 +97,7 @@ class CityListTest {
     @Test
     void testReturnOne() {
         // method doesnt exist so travis integration should fail
-        assertEquals(1, returnOne());
+        City city = new City("Edmonton", "Alberta");
+        assertEquals(1, city.returnOne());
     }
 }
