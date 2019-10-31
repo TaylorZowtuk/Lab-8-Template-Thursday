@@ -93,4 +93,10 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testReturnOne() {
+        // method doesnt exist so travis integration should fail
+        assertEquals(1, returnOne());
+    }
 }
